@@ -6,36 +6,38 @@
     <title>My Portfolio</title>
     <meta
       name="description"
-      content="Mi portfolio personal realizado como proyecto para Henry"
+      content="portfolio personal realizado como proyecto para Henry"
     />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="navbar">
         <div>
-          <ul>
+          <ul class="header_links-ul">
             <li>
-              <a href="" target="_blank">Mi Facebook</a>
+              <a href="" target="_blank">Facebook</a>
             </li>
             <li>
-              <a href="" target="_blank">Mi Instagram</a>
+              <a href="" target="_blank">Instagram</a>
             </li>
             <li>
-              <a href="" target="_blank">Mi Linked-In</a>
+              <a href="" target="_blank">Linked-In</a>
             </li>
           </ul>
         </div>
       </nav>
-      <img src="" alt="banner" />
+      <div class="banner">
+        <!--<img src="banner.jpg" alt="banner" />-->
+      </div>
     </header>
-    <hr />
     <main>
-      <section>
-        <article>
-          <img src="" alt="profile-pic" />
-          <h1>Eric Diaz</h1>
-          <div>
-            <p>Full Stack Web Developer (Student)</p>
+      <article>
+        <div class="about-me">
+          <div class="perfil"></div>
+          <h1 class="name">Eric Diaz</h1>
+          <h6 class="title">Full Stack Web Developer (Student)</h6>
+          <div class="description">
             <p>
               Soy un estudiante de Desarrollo Web apasionado por el aprendizaje
               y por expandir continuamente mis conocimientos sobre las
@@ -43,12 +45,11 @@
               sobre todo aquellas relacionadas al Backend de las aplicaciones
               web.
             </p>
+            </div>
           </div>
         </article>
-      </section>
       <hr />
-      <section>
-        <h2>Experiencias</h2>
+        <h3>Experiencias</h3>
         <article>
           <img src="" alt="exp-logo" />
           <div>
@@ -57,10 +58,8 @@
             <p>Desde mes/año hasta es/año</p>
           </div>
         </article>
-      </section>
       <hr />
-      <section>
-        <h2>Educación</h2>
+        <h3>Educación</h3>
         <article>
           <img src="" alt="ed-logo" />
           <div>
@@ -69,18 +68,14 @@
             <p>Periodo</p>
           </div>
         </article>
-      </section>
       <hr />
-      <section>
-        <h2>Habilidades</h2>
+        <h3>Habilidades</h3>
         <article>
           <img src="" alt="skill-logo" />
           <p>Nombre de habilidad</p>
         </article>
-      </section>
       <hr />
-      <section>
-        <h2>Idiomas</h2>
+        <h3>Idiomas</h3>
         <article>
           <img src="" alt="lang-logo" />
           <p>nombre del idioma</p>
@@ -88,10 +83,8 @@
           <p>comprension auditiva</p>
           <p>comprension lectora</p>
         </article>
-      </section>
       <hr />
-      <section>
-        <h2>Proyectos</h2>
+        <h3>Proyectos</h3>
         <article>
           <img src="" alt="proyect-logo" />
           <div>
@@ -100,8 +93,6 @@
             <p>Desde mes/año hasta es/año</p>
             <a href="">Link al proyecto</a>
           </div>
-        </article>
-      </section>
     </main>
     <footer></footer>
   </body>

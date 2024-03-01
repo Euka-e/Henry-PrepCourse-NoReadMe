@@ -1,0 +1,115 @@
+/* Estilos globales */
+
+/* Configuración del tamaño de fuente y tipo de fuente para todo el documento */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Establecer márgenes y relleno por defecto en todos los elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos de enlaces */
+a {
+  text-decoration: none; /* Elimina el subrayado predeterminado */
+  color: #007bff; /* Cambia el color de los enlaces */
+}
+
+a:hover {
+  text-decoration: underline; /* Añade subrayado al pasar el ratón por encima */
+}
+
+/* Estilos de encabezados */
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  color: #333; /* Color de texto para los encabezados */
+}
+
+/* Estilos de lista */
+ul,
+ol {
+  list-style: none; /* Elimina los marcadores de lista */
+}
+
+/* Estilos de imagen */
+img {
+  max-width: 100%; /* Asegura que las imágenes no se desborden de su contenedor */
+  height: auto; /* Mantiene la proporción de aspecto */
+}
+
+/* Estilos de formulario */
+input,
+textarea {
+  border: 1px solid #ccc; /* Añade un borde a los campos de formulario */
+  padding: 5px; /* Añade relleno a los campos de formulario */
+}
+
+/* Estilos de botones */
+button {
+  cursor: pointer; /* Cambia el cursor a una mano al pasar el ratón por encima */
+  padding: 10px 20px; /* Añade relleno alrededor del texto del botón */
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color de texto del botón */
+  border: none; /* Elimina el borde del botón */
+  border-radius: 5px; /* Añade bordes redondeados al botón */
+}
+
+button:hover {
+  background-color: #0056b3; /* Cambia el color de fondo del botón al pasar el ratón por encima */
+}
+
+/* ----Fin de configuracion de estilos globales-----*/
+
+body {
+  background: linear-gradient(90deg, #4b8cb7 0%, #4f81e4 100%);
+}
+.navbar {
+  background-color: rgb(0, 117, 117);
+  padding: 10px 0 10px 0;
+}
+.header_links-ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15px;
+}
+.header_links-ul > li {
+  padding: 0 4px 0 4px;
+}
+.header_links-ul a {
+  text-decoration: none;
+  color: #fff;
+}
+.header_links-ul a:hover {
+  text-decoration: none;
+  color: #0871c7;
+}
+.banner {
+  height: 15em;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(banner.jpg);
+  background-size: cover; 
+  background-position: center;
+}
+.perfil {
+  position: absolute;
+  top: 23%;
+  left: 5%;
+  width: 12em; 
+  height: 12em; 
+  background-image: url('perfil.jpg'); 
+  background-size: cover; 
+  background-position: center;
+}
+.name {
+  margin-top: 3em;
+}
